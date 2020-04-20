@@ -1,13 +1,13 @@
-package io.buildpacks.example.sample;
+package com.mattmcnew.sampleapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SampleApplication {
+public class SampleAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SampleApplication.class, args);
+		SpringApplication.run(SampleAppApplication.class, args);
 	}
 
 }
