@@ -19,6 +19,8 @@ dependencies {
 	}
 }
 
+Thread.sleep(100000)
+
 test {
 	useJUnitPlatform()
 }
